@@ -67,3 +67,35 @@ flex-direction: column;
 .btn:hover{
     background-color: #3a47ff;
 }
+#about{
+    background-image: url(картинки/bgABOUT.png);
+}
+#skils{
+background-image: url(картинки/bgSKILLS.png);
+}
+#works{
+background-image: url(картинки/bgWORKS.png);
+}
+#contacts{
+background-image: url(картинки/bgCONTACTS.png);
+}
+@keyframes move{
+    from{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(0px);
+    }
+    to{
+        transform: translateY(-70px);
+    }
+}
+.moving-bug{
+    width: 150px;
+    position: absolute;
+    bottom: 30px;
+    right: 50px;
+    animation-name: move;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
