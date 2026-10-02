@@ -84,13 +84,13 @@ background-image: url(картинки/bgCONTACTS.png);
         transform: translateY(0px);
     }
     50%{
-        transform: translateY(0px);
-    }
-    to{
         transform: translateY(-70px);
     }
+    to{
+        transform: translateY(0px);
+    }
 }
-.moving-bug{
+.moving-bug, .moving-cloude{
     width: 150px;
     position: absolute;
     bottom: 30px;
@@ -98,4 +98,39 @@ background-image: url(картинки/bgCONTACTS.png);
     animation-name: move;
     animation-duration: 2s;
     animation-iteration-count: infinite;
+}
+.title{
+    padding-top: 100px;
+    text-align: center;
+    color: #fff;
+    font-size: 80px;
+    text-shadow: 5px 5px 0px black;
+    text-transform: uppercase;
+}
+.about-content{
+    width: 45%;
+    height: 270px;
+    border-radius: 20px 0px 0px 20px;
+    background-color: #b2ddff;
+    padding-left: 40px;
+    padding-top: 40px;
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+}
+.about-title{
+    color: #3674b5;
+    font-size: 20px;
+    max-width: 463px;
+    margin-bottom: 20px;
+    font-family: "Comfortaa";
+}
+.about-card{
+    background-color: #b2ddff;
+    padding: 30px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
