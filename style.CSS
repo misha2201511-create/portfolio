@@ -142,3 +142,86 @@ background-image: url(картинки/bgCONTACTS.png);
     justify-content: center;
     align-items: center;
 }
+.work{
+    width: 600px;
+    margin: 10px;
+    margin-top: 200px;
+}
+.works-block{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.skils-card{
+    background-color: #fff;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+    margin: 20px;
+    padding: 50px;
+    border-radius: 5px 5px 20px 20px;
+    box-shadow: 2px 5px 0 black;
+    position: relative;
+}
+.skils-card .bnt{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+#skils h1{
+    margin-bottom: 100px;
+}
+.skils-card p{
+    color: black;
+    font-size: 18px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    text-align: center;
+    max-width: 500px;
+    font-family: "Comfortaa";
+}
+.contacts-form{
+    background-color: #ffffff;
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    padding: 20px;
+    border-radius: 5px 5px 20px 20px;
+    box-shadow: 2px 5px 0 black;
+    position: relative;
+}
+.contacts-form p{
+    color: black;
+    font-size: 16px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    text-align: center;
+    max-width: 500px;
+    font-family: "Comfortaa";
+}
+input[type=text]{
+    width: 80%;
+    margin-bottom: 20px;
+    padding: 15px;
+    outline: none;
+    border: none;
+    border-radius: 100px;
+    background-color: #D1F8EF;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+input[type=submit]{
+    background-color: #3674b5;
+    color: white;
+    font-size: 18px;
+    width: 80%;
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 100px;
+    border: 2px solid black;
+    box-shadow: 5px 5px 0 #D2D0F7;
+    transition-duration: 0.3;
+}
