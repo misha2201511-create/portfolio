@@ -296,4 +296,18 @@ nav{
     background-color: #3674b5;
     color: white;
     border: 2px solid white;
+    animation-name: buttons;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+@keyframes buttons{
+    from{
+        background-color: #3674b5;
+    }
+    50%{
+        background-color: #3a47ff;
+    }
+    to{
+        background-color: #3674b5;
+    }
 }
