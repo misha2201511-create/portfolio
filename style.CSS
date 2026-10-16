@@ -4,7 +4,11 @@
      font-family: "Inter", sans-serif;
      scroll-behavior: smooth;
 }
+body{
+    width: 100%;
+}
 section{
+    width: 100%;
     height: 100vh;
     background-size: cover;
     background-position: center;
@@ -193,7 +197,8 @@ background-image: url(картинки/bgCONTACTS.png);
     padding: 20px;
     border-radius: 5px 5px 20px 20px;
     box-shadow: 2px 5px 0 black;
-    position: relative;
+    
+position: relative;
 }
 .contacts-form p{
     color: black;
@@ -312,11 +317,29 @@ nav{
     }
 }
 @media (max-width:1000px) {
+    #skils, #works, #contacts{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    #skils .title, #skils .skils-block{
+        margin: 0;
+        padding: 0;
+    }
+    .main-content{
+        width: 80%;
+    }
+    .main-title{
+        font-size: 60px;
+    }
+    .enot {
+        width: 600px;
+    }
 .nav-links{
     display: none;
 }
 .logo{
-    font-size: 40px;
+    font-size: 100px;
     padding-left: 20px;
     padding-top: 10px;
 }
@@ -343,11 +366,16 @@ nav{
     width: 100%;
 }
 .about-content{
-    width: 75%;
-    height: 250px;
+    padding: 0;
+    flex-direction: column;
+}
+.about-text{
+    border-radius: 20px;
+    padding: 40px;
+    width: 560px;
 }
 .about-title{
-    font-size: 18px;
+    font-size: 38px;
 }
 .skils-card{
     margin-top: 50px;
@@ -358,13 +386,8 @@ nav{
     margin-top: 18%;
     margin-bottom: 20px;
 }
-.skils-block{
-min-height: 60vh;
-}
-.skils-card, .btn{
-    position: absolute;
-    bottom: 150px;
-}
+
+
 .works-block{
     flex-direction: column;
     padding: 20px 0;
