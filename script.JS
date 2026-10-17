@@ -33,3 +33,7 @@ if (!newactivebtn.classList.contains("active")) {
     activebtn.classList.remove("active")
 }
 }
+
+document.querySelector(".mobile-button").addEventListener("click", function (params) {
+    document.querySelector(".mobile-menu").classList.toggle("hide")
+})

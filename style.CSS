@@ -415,4 +415,35 @@ footer{
 .btn{
     width: 150px;
 }
+.mobile-button{
+    display: block;
+}
+.mobile-menu{
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    width: 100%;
+    background-color: #0090ff;
+    min-height: 100vh;
+}
+.mobile-nav{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.mobile-nav-links .nav-links{
+    margin-bottom: 30px;
+    width: 210px;
+    height: 50px;
+}
+}
+.mobile-button{
+    display: none;
+    position: absolute;
+    padding-top: 10px;
+}
+.hide{
+    display: none;
 }
