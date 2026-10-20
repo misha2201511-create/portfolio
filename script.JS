@@ -36,4 +36,8 @@ if (!newactivebtn.classList.contains("active")) {
 
 document.querySelector(".mobile-button").addEventListener("click", function (params) {
     document.querySelector(".mobile-menu").classList.toggle("hide")
+     document.querySelector(".krestik").classList.toggle('hide')
+       document.querySelector(".menu").classList.toggle('hide')
 })
+
+//document.querySelector(".mobile-menu").classList.toggle('hide')

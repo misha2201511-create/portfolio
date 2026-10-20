@@ -316,7 +316,25 @@ nav{
         background-color: #3674b5;
     }
 }
+
+.mobile-button{
+    display: none;
+    position: absolute;
+    padding-top: 10px;
+}
+.hide{
+    display: none;
+}
+
+
+
 @media (max-width:1000px) {
+    .mobile-button{
+        display: block;
+        position: absolute;
+        right: 30px;
+        top: 30px;
+    }
     #skils, #works, #contacts{
         display: flex;
         flex-direction: column;
@@ -386,8 +404,6 @@ nav{
     margin-top: 18%;
     margin-bottom: 20px;
 }
-
-
 .works-block{
     flex-direction: column;
     padding: 20px 0;
@@ -415,9 +431,6 @@ footer{
 .btn{
     width: 150px;
 }
-.mobile-button{
-    display: block;
-}
 .mobile-menu{
     position: absolute;
     top: 0;
@@ -433,17 +446,9 @@ footer{
     justify-content: center;
     align-items: center;
 }
-.mobile-nav-links .nav-links{
-    margin-bottom: 30px;
-    width: 210px;
-    height: 50px;
+.mobile-nav-links .nav-link{
+    margin-bottom: 40px;
+     width: 400px;
+    height: 60px;
 }
-}
-.mobile-button{
-    display: none;
-    position: absolute;
-    padding-top: 10px;
-}
-.hide{
-    display: none;
 }
