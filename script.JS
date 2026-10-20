@@ -40,4 +40,7 @@ document.querySelector(".mobile-button").addEventListener("click", function (par
        document.querySelector(".menu").classList.toggle('hide')
 })
 
-//document.querySelector(".mobile-menu").classList.toggle('hide')
+document.querySelector(".mobile-nav-links").addEventListener("click", function (params) {
+    document.querySelector(".mobile-menu").classList.toggle('hide')
+    
+})
